@@ -1,3 +1,5 @@
+package Tests;
+
 import Helpers.CaptureConsole;
 import Helpers.RandomString;
 import com.tss.Demo;
