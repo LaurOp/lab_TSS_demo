@@ -3,6 +3,7 @@ package mutantEchivalent;
 import Helpers.CaptureConsole;
 import Helpers.RandomString;
 import com.tss.Demo;
+import com.tss.Mutant;
 import org.junit.Rule;
 import org.junit.Test;
 
@@ -10,7 +11,7 @@ import static org.junit.Assert.assertFalse;
 
 public class equivalence_partitioning {
 
-    private final Demo demo = new Demo();
+    private final Mutant demo = new Mutant();
     private final RandomString randomString = new RandomString();
 
     @Rule
